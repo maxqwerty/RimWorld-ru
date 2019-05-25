@@ -45,7 +45,7 @@
   <!-- EN: divorced by {0} -->
   <DivorcedMeMood.stages.divorced_by.label>{0} {1_gender ? развёлся : развелась}</DivorcedMeMood.stages.divorced_by.label>
   <!-- EN: We made a commitment, and they just tore it apart. -->
-  <DivorcedMeMood.stages.divorced_by.description>Мы взяли на себя некоторые взаимные обязательства, а {OTHERPAWN_pronoun} просто {OTHERPAWN_gender ? порвал : порвала} со мной и всё!</DivorcedMeMood.stages.divorced_by.description>
+  <DivorcedMeMood.stages.divorced_by.description>Мы взяли на себя некоторые взаимные обязательства, а {OTHERPAWN_pronoun} просто {OTHERPAWN_gender ? порвал : порвала} со мной!</DivorcedMeMood.stages.divorced_by.description>
   
   <!-- Thought_MemorySocial, null. Label: {0}(otherPawn.LabelShort), {1}(otherPawn). LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN}, {OTHERPAWN} -->
   <!-- EN: failed to romance me -->
@@ -108,7 +108,7 @@
   <!-- EN: insulted -->
   <InsultedMood.stages.insulted.label>оскорбление</InsultedMood.stages.insulted.label>
   <!-- EN: I've been directly insulted! What an awful person! -->
-  <InsultedMood.stages.insulted.description>{OTHERPAWN_gender ? Он : Она} просто {OTHERPAWN_gender ? взял : взяла} и {OTHERPAWN_gender ? оскорбил : оскорбила} меня! Терпеть не могу таких людей!</InsultedMood.stages.insulted.description>
+  <InsultedMood.stages.insulted.description>Меня {OTHERPAWN_gender ? оскорбил : оскорбила} {OTHERPAWN}. Да как {OTHERPAWN_pronoun} {OTHERPAWN_gender ? посмел : посмела} такое сказать!</InsultedMood.stages.insulted.description>
   
   <!-- Thought_MemorySocial, null. Label: {0}(otherPawn.LabelShort), {1}(otherPawn). LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN}, {OTHERPAWN} -->
   <!-- EN: I rejected their proposal -->
@@ -193,7 +193,7 @@
   
   <!-- Thought_MemorySocial, null. Label: {0}(otherPawn.LabelShort), {1}(otherPawn). LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN}, {OTHERPAWN} -->
   <!-- EN: recruited me -->
-  <RecruitedMe.stages.recruited_me.label>{1_gender ? завербовал : завербовала} меня</RecruitedMe.stages.recruited_me.label>
+  <RecruitedMe.stages.recruited_me.label>{1_gender ? пригласил : пригласила} меня в поселение</RecruitedMe.stages.recruited_me.label>
   
   <!-- Thought_MemorySocial, null. Label: {0}(otherPawn.LabelShort), {1}(otherPawn). LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN}, {OTHERPAWN} -->
   <!-- EN: rejected my proposal -->
