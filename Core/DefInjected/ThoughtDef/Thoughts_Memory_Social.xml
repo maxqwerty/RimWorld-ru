@@ -8,42 +8,42 @@
   <BrokeUpWithMe.stages.broke_up_with_me.label>{1_gender ? бросил : бросила} меня</BrokeUpWithMe.stages.broke_up_with_me.label>
   
   <!-- EN: broken up with by {0} -->
-  <BrokeUpWithMeMood.stages.broken_up_with_by.label>разрыв по инициативе {0}</BrokeUpWithMeMood.stages.broken_up_with_by.label>
+  <BrokeUpWithMeMood.stages.broken_up_with_by.label>{0} {1_gender ? бросил : бросила}</BrokeUpWithMeMood.stages.broken_up_with_by.label>
   <!-- EN: I was just dumped like a load of garbage. -->
-  <BrokeUpWithMeMood.stages.broken_up_with_by.description>Меня бросили, словно мешок с мусором.</BrokeUpWithMeMood.stages.broken_up_with_by.description>
+  <BrokeUpWithMeMood.stages.broken_up_with_by.description>{OTHERPAWN_gender ? Он : Она} меня {OTHERPAWN_gender ? бросил : бросила}, словно я мешок с мусором!</BrokeUpWithMeMood.stages.broken_up_with_by.description>
   
   <!-- EN: cheated on me -->
   <CheatedOnMe.stages.cheated_on_me.label>{1_gender ? изменил : изменила} мне</CheatedOnMe.stages.cheated_on_me.label>
   
   <!-- EN: cheated on by {0} -->
-  <CheatedOnMeMood.stages.cheated_on_by.label>измена со стороны {0}</CheatedOnMeMood.stages.cheated_on_by.label>
+  <CheatedOnMeMood.stages.cheated_on_by.label>{0} {1_gender ? изменил : изменила}</CheatedOnMeMood.stages.cheated_on_by.label>
   <!-- EN: How could someone cheat on me! -->
-  <CheatedOnMeMood.stages.cheated_on_by.description>Как только кто-то мог предпочесть мне другого!</CheatedOnMeMood.stages.cheated_on_by.description>
+  <CheatedOnMeMood.stages.cheated_on_by.description>Как {OTHERPAWN_pronoun} только {OTHERPAWN_gender ? мог : могла} изменить мне!</CheatedOnMeMood.stages.cheated_on_by.description>
   
   <!-- EN: chitchat -->
-  <Chitchat.stages.chitchat.label>беседовали</Chitchat.stages.chitchat.label>
+  <Chitchat.stages.chitchat.label>поболтали</Chitchat.stages.chitchat.label>
   
   <!-- EN: crashed together -->
   <CrashedTogether.stages.crashed_together.label>потерпели крушение вместе</CrashedTogether.stages.crashed_together.label>
   
   <!-- EN: deep talk -->
-  <DeepTalk.stages.deep_talk.label>глубокий разговор</DeepTalk.stages.deep_talk.label>
+  <DeepTalk.stages.deep_talk.label>серьёзно поговорили</DeepTalk.stages.deep_talk.label>
   
   <!-- EN: divorced me -->
   <DivorcedMe.stages.divorced_me.label>{1_gender ? развёлся : развелась} со мной</DivorcedMe.stages.divorced_me.label>
   
   <!-- EN: divorced by {0} -->
-  <DivorcedMeMood.stages.divorced_by.label>развод по инициативе {0}</DivorcedMeMood.stages.divorced_by.label>
+  <DivorcedMeMood.stages.divorced_by.label>{0} {1_gender ? развёлся : развелась}</DivorcedMeMood.stages.divorced_by.label>
   <!-- EN: We made a commitment, and they just tore it apart. -->
-  <DivorcedMeMood.stages.divorced_by.description>Мы взяли на себя некоторые взаимные обязательства, а этот человек просто порвал со мной и всё.</DivorcedMeMood.stages.divorced_by.description>
+  <DivorcedMeMood.stages.divorced_by.description>Мы взяли на себя некоторые взаимные обязательства, а {OTHERPAWN_pronoun} просто {OTHERPAWN_gender ? порвал : порвала} со мной и всё!</DivorcedMeMood.stages.divorced_by.description>
   
   <!-- EN: failed to romance me -->
-  <FailedRomanceAttemptOnMe.stages.failed_to_romance_me.label>не {1_gender ? захотел : захотела} встречаться</FailedRomanceAttemptOnMe.stages.failed_to_romance_me.label>
+  <FailedRomanceAttemptOnMe.stages.failed_to_romance_me.label>{1_gender ? приставал : приставала} ко мне</FailedRomanceAttemptOnMe.stages.failed_to_romance_me.label>
   
   <!-- EN: had to rebuff {0} -->
-  <FailedRomanceAttemptOnMeLowOpinionMood.stages.had_to_rebuff.label>пришлось отвергнуть {0}</FailedRomanceAttemptOnMeLowOpinionMood.stages.had_to_rebuff.label>
+  <FailedRomanceAttemptOnMeLowOpinionMood.stages.had_to_rebuff.label>{0} {1_gender ? приставал : приставала}</FailedRomanceAttemptOnMeLowOpinionMood.stages.had_to_rebuff.label>
   <!-- EN: Someone I don't like tried to romance me. -->
-  <FailedRomanceAttemptOnMeLowOpinionMood.stages.had_to_rebuff.description>За мной попытался ухаживать кто-то, кто мне не нравится.</FailedRomanceAttemptOnMeLowOpinionMood.stages.had_to_rebuff.description>
+  <FailedRomanceAttemptOnMeLowOpinionMood.stages.had_to_rebuff.description>За мной {OTHERPAWN_gender ? попытался : попыталась} ухаживать {OTHERPAWN_nameDef}. Конечно же я {PAWN_gender ? отказал : отказала}.</FailedRomanceAttemptOnMeLowOpinionMood.stages.had_to_rebuff.description>
   
   <!-- EN: forced me to take drugs -->
   <ForcedMeToTakeDrugs.stages.forced_me_to_take_drugs.label>{1_gender ? накачал : накачала} меня наркотиками</ForcedMeToTakeDrugs.stages.forced_me_to_take_drugs.label>
@@ -85,10 +85,11 @@
   <!-- EN: insulted -->
   <InsultedMood.stages.insulted.label>оскорбление</InsultedMood.stages.insulted.label>
   <!-- EN: I've been directly insulted! What an awful person! -->
-  <InsultedMood.stages.insulted.description>Это было прямое оскорбление! Терпеть не могу таких людей!</InsultedMood.stages.insulted.description>
+  <InsultedMood.stages.insulted.description>{OTHERPAWN_gender ? Этот : Эта} {OTHERPAWN_gender ? урод : зараза} просто {OTHERPAWN_gender ? взял : взяла} и {OTHERPAWN_gender ? оскорбил : оскорбила} меня!</InsultedMood.stages.insulted.description>
   
   <!-- EN: I rejected their proposal -->
-  <IRejectedTheirProposal.stages.I_rejected_their_proposal.label>{1_gender ? отверг : отвергла} моё предложение</IRejectedTheirProposal.stages.I_rejected_their_proposal.label>
+  <IRejectedTheirProposal.stages.I_rejected_their_proposal.label>{1_gender ? сделал : сделала} неприемлемое предложение</IRejectedTheirProposal.stages.I_rejected_their_proposal.label>
+  <!-- <IRejectedTheirProposal.stages.I_rejected_their_proposal.labelSocial>я {PAWN_gender ? отверг : отвергла} предложение</IRejectedTheirProposal.stages.I_rejected_their_proposal.labelSocial> -->
   
   <!-- EN: killed my bonded animal -->
   <KilledMyBondedAnimal.stages.killed_my_bonded_animal.label>{1_gender ? убил : убила} любимого питомца</KilledMyBondedAnimal.stages.killed_my_bonded_animal.label>
@@ -144,9 +145,9 @@
   <RebuffedMyRomanceAttempt.stages.rebuffed_me.label>{1_gender ? отверг : отвергла} меня</RebuffedMyRomanceAttempt.stages.rebuffed_me.label>
   
   <!-- EN: rebuffed by {0} -->
-  <RebuffedMyRomanceAttemptMood.stages.rebuffed_by.label>отказ со стороны {0}</RebuffedMyRomanceAttemptMood.stages.rebuffed_by.label>
+  <RebuffedMyRomanceAttemptMood.stages.rebuffed_by.label>{0} {1_gender ? отказал : отказала}</RebuffedMyRomanceAttemptMood.stages.rebuffed_by.label>
   <!-- EN: I attempted to create a romance, but I got the cold shoulder. Feels bad man. -->
-  <RebuffedMyRomanceAttemptMood.stages.rebuffed_by.description>Моя попытка ухаживать была отвергнута. Грустное чувство.</RebuffedMyRomanceAttemptMood.stages.rebuffed_by.description>
+  <RebuffedMyRomanceAttemptMood.stages.rebuffed_by.description>Я {PAWN_gender ? попытался : попыталась} ухаживать за {OTHERPAWN_gender ? ним : ней}, а {OTHERPAWN_pronoun} просто {OTHERPAWN_gender ? отвернулся : отвернулась} от меня! Обидно.</RebuffedMyRomanceAttemptMood.stages.rebuffed_by.description>
   
   <!-- EN: recruited me -->
   <RecruitedMe.stages.recruited_me.label>{1_gender ? завербовал : завербовала} меня</RecruitedMe.stages.recruited_me.label>
@@ -155,9 +156,9 @@
   <RejectedMyProposal.stages.rejected_my_proposal.label>{1_gender ? отверг : отвергла} моё предложение</RejectedMyProposal.stages.rejected_my_proposal.label>
   
   <!-- EN: my proposal was rejected by {0} -->
-  <RejectedMyProposalMood.stages.my_proposal_was_rejected_by.label>отказ от предложения со стороны {0}</RejectedMyProposalMood.stages.my_proposal_was_rejected_by.label>
+  <RejectedMyProposalMood.stages.my_proposal_was_rejected_by.label>{0} {1_gender ? отверг : отвергла} предложение</RejectedMyProposalMood.stages.my_proposal_was_rejected_by.label>
   <!-- EN: I thought we were meant to marry. But I was just shot down. -->
-  <RejectedMyProposalMood.stages.my_proposal_was_rejected_by.description>Я {PAWN_gender ? думал : думала}, что нам было предназначено пожениться. Но меня просто отшили.</RejectedMyProposalMood.stages.my_proposal_was_rejected_by.description>
+  <RejectedMyProposalMood.stages.my_proposal_was_rejected_by.description>Я {PAWN_gender ? думал : думала}, что нам было предназначено пожениться, а {OTHERPAWN_pronoun} меня просто {OTHERPAWN_gender ? отшил : отшила}!</RejectedMyProposalMood.stages.my_proposal_was_rejected_by.description>
   
   <!-- EN: rescued me -->
   <RescuedMe.stages.rescued_me.label>{1_gender ? спас : спасла} меня</RescuedMe.stages.rescued_me.label>
@@ -165,7 +166,7 @@
   <!-- EN: rescued me -->
   <RescuedMeByOfferingHelp.stages.rescued_me.label>{1_gender ? спас : спасла} меня</RescuedMeByOfferingHelp.stages.rescued_me.label>
   <!-- EN: I was rescued by someone! I almost thought I was done for back there. I'm so thankful. -->
-  <RescuedMeByOfferingHelp.stages.rescued_me.description>У меня есть спаситель! А мне уже начало казаться, что меня бросят. Я так {PAWN_gender ? благодарен : благодарна}!</RescuedMeByOfferingHelp.stages.rescued_me.description>
+  <RescuedMeByOfferingHelp.stages.rescued_me.description>У меня есть {OTHERPAWN_gender ? спаситель : спасительница}! А мне уже начало было казаться, что меня бросят. Я так {PAWN_gender ? благодарен : благодарна} {OTHERPAWN_objective}!</RescuedMeByOfferingHelp.stages.rescued_me.description>
   
   <!-- EN: slighted -->
   <Slighted.stages.slighted.label>{1_gender ? пренебрёг : пренебрегла} мной</Slighted.stages.slighted.label>

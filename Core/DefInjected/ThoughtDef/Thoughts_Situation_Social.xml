@@ -37,7 +37,7 @@
   <ChemicalInterestVsTeetotaler.stages.chemical_interest_vs_teetotaler.label>любитель «химии» и трезвенник</ChemicalInterestVsTeetotaler.stages.chemical_interest_vs_teetotaler.label>
   
   <!-- EN: creepy breathing -->
-  <CreepyBreathing.stages.creepy_breathing.label>жутковатое дыхание</CreepyBreathing.stages.creepy_breathing.label>
+  <CreepyBreathing.stages.creepy_breathing.label>жутковато дышит</CreepyBreathing.stages.creepy_breathing.label>
   
   <!-- EN: disfigured -->
   <Disfigured.stages.disfigured.label>обезображен(а)</Disfigured.stages.disfigured.label>
@@ -111,7 +111,7 @@
   <Ugly.stages.physically_hideous.label>невероятно уродлив(а)</Ugly.stages.physically_hideous.label>
   
   <!-- EN: want to sleep with {0} -->
-  <WantToSleepWithSpouseOrLover.stages.want_to_sleep_with.label>хочу спать вместе с {0}</WantToSleepWithSpouseOrLover.stages.want_to_sleep_with.label>
+  <WantToSleepWithSpouseOrLover.stages.want_to_sleep_with.label>{0} спит не со мной</WantToSleepWithSpouseOrLover.stages.want_to_sleep_with.label>
   <!-- EN: I don't like sleeping apart from my partner. -->
   <WantToSleepWithSpouseOrLover.stages.want_to_sleep_with.description>Мне не нравится, что я сплю отдельно от моей половинки.</WantToSleepWithSpouseOrLover.stages.want_to_sleep_with.description>
   
