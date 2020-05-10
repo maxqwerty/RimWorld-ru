@@ -64,7 +64,7 @@
   <MessagePrisonerIsEscaping>{1_gender ? Пленник : Пленница} {1_labelShort} устраивает побег!</MessagePrisonerIsEscaping>
 
   <!-- EN: {PAWN_labelShort} found no nearby unreserved shells for {GUN_label}. -->
-  <MessageOutOfNearbyShellsFor>{PAWN_labelShort} не может найти снарядов для {GUN_label}.</MessageOutOfNearbyShellsFor>
+  <MessageOutOfNearbyShellsFor>{PAWN_labelShort} не может найти снарядов для ^Case({GUN_label} | 1)^.</MessageOutOfNearbyShellsFor>
 
   <!-- EN: Warning: {ANIMAL_kindBasePlural} have a {1} base chance to attack when harmed. Chance depends on range and hunter stealth stat. -->
   <MessageAnimalsGoPsychoHunted>Внимание: при попадании с расстояния винтовочного выстрела {ANIMAL_kindBasePlural} нападают с базовой вероятностью {1}. На это влияют как расстояние до цели, так и скрытность охотника.</MessageAnimalsGoPsychoHunted>
@@ -76,9 +76,9 @@
   <!-- EN: {RECRUITER_nameFull} successfully recruited {RECRUITEE_nameFull} ({2} chance). -->
   <MessageRecruitSuccess>{RECRUITER_nameFull} успешно {RECRUITER_gender ? завербовал : завербовала} {RECRUITEE_nameFull} с вероятностью {2}.</MessageRecruitSuccess>
   <!-- EN: {RECRUITER_labelShort} successfully tamed {1} ({2} chance). -->
-  <MessageTameSuccess>{RECRUITER_labelShort} успешно {RECRUITER_gender ? приручил : приручила} {1} с вероятностью {2}.</MessageTameSuccess>
+  <MessageTameSuccess>{RECRUITER_labelShort} успешно {RECRUITER_gender ? приручил : приручила} ^Case({1} | 3)^ с вероятностью {2}.</MessageTameSuccess>
   <!-- EN: {RECRUITER_labelShort} successfully tamed {1} ({2} chance). It is now called {RECRUITEE_nameFull}. -->
-  <MessageTameAndNameSuccess>{RECRUITER_labelShort} успешно {RECRUITER_gender ? приручил : приручила} {1} с вероятностью {2} и {RECRUITER_gender ? назвал : назвала} {RECRUITEE_possessive} {RECRUITEE_nameFull}.</MessageTameAndNameSuccess>
+  <MessageTameAndNameSuccess>{RECRUITER_labelShort} успешно {RECRUITER_gender ? приручил : приручила} ^Case({1} | 3)^ с вероятностью {2} и {RECRUITER_gender ? назвал : назвала} {RECRUITEE_possessive} {RECRUITEE_nameFull}.</MessageTameAndNameSuccess>
   <!-- EN: {RECRUITEE} has joined your colony. -->
   <MessageRecruitJoinOfferAccepted>{RECRUITEE} присоединяется к вашему поселению.</MessageRecruitJoinOfferAccepted>
 
@@ -150,9 +150,9 @@
   <MessageMedicalOperationWillAngerFaction>Эта операция возмутит {0}.</MessageMedicalOperationWillAngerFaction>
 
   <!-- EN: {0} has miscarried due to starvation. -->
-  <MessageMiscarriedStarvation>У {0} из-за голода произошёл выкидыш.</MessageMiscarriedStarvation>
+  <MessageMiscarriedStarvation>У ^Case({0} | 1)^ из-за голода произошёл выкидыш.</MessageMiscarriedStarvation>
   <!-- EN: {0} has miscarried due to poor health. -->
-  <MessageMiscarriedPoorHealth>У {0} из-за плохого здоровья произошёл выкидыш.</MessageMiscarriedPoorHealth>
+  <MessageMiscarriedPoorHealth>У ^Case({0} | 1)^ из-за плохого здоровья произошёл выкидыш.</MessageMiscarriedPoorHealth>
   <!-- EN: {0} has given birth. -->
   <MessageGaveBirth>{0} родила.</MessageGaveBirth>
   
@@ -172,9 +172,9 @@
   <MessageNoHandlerSkilledEnough>Никто не сможет приручить {ANIMAL_kindBase}. Требуется {2} уровня {1}. Лучший животновод, {HANDLER_labelShort}, имеет уровень {4}.</MessageNoHandlerSkilledEnough>
   
   <!-- EN: {EATEN_labelShort} has been eaten by {PREDATOR}. -->
-  <MessageEatenByPredator>{PREDATOR} {PREDATOR_gender ? съел : съела} {EATEN_labelShort}</MessageEatenByPredator>
+  <MessageEatenByPredator>{PREDATOR} {PREDATOR_gender ? съел : съела} ^Case({EATEN_labelShort} | 3)^</MessageEatenByPredator>
   <!-- EN: {PREY_labelShort} is being attacked by {PREDATOR}! -->
-  <MessageAttackedByPredator>На {PREY_labelShort} {PREDATOR_gender ? напал : напала} {PREDATOR}!</MessageAttackedByPredator>
+  <MessageAttackedByPredator>На ^Case({PREY_labelShort} | 3)^ {PREDATOR_gender ? напал : напала} {PREDATOR}!</MessageAttackedByPredator>
   
   <!-- EN: A bug hive has reproduced itself. -->
   <MessageHiveReproduced>Улей насекомых расплодился.</MessageHiveReproduced>
@@ -214,7 +214,7 @@
   <MessageBondedAnimalsMentalBreak>{0} животных получили нервный срыв из-за того, что {HUMAN_gender ? умер : умерла} {HUMAN_labelShort}.</MessageBondedAnimalsMentalBreak>
   
   <!-- EN: {SURGEON_labelShort} has successfully removed {PATIENT_labelShort}'s {HEDIFF}. -->
-  <MessageSuccessfullyRemovedHediff>{SURGEON_labelShort} успешно {SURGEON_gender ? устранил : устранила} {HEDIFF} у {PATIENT_labelShort}.</MessageSuccessfullyRemovedHediff>
+  <MessageSuccessfullyRemovedHediff>{SURGEON_labelShort} успешно {SURGEON_gender ? устранил : устранила} ^Case({HEDIFF} | 3)^ у {PATIENT_labelShort}.</MessageSuccessfullyRemovedHediff>
   
   <!-- EN: Chunks of a spacecraft have impacted nearby. You can deconstruct them to yield resources. -->
   <MessageShipChunkDrop>Несколько обломков космического корабля упали с неба неподалёку. Их можно разобрать для получения ценных ресурсов.</MessageShipChunkDrop>
@@ -223,7 +223,7 @@
   <MessageCannotSellItemsReason>Некоторые предметы невозможно продать, т.к. рядом </MessageCannotSellItemsReason>
 
   <!-- EN: {WORKER_labelShort} failed while constructing a {0}. Some resources have been wasted. -->
-  <MessageConstructionFailed>{WORKER_labelShort} {WORKER_gender ? совершил : совершила} ошибку, строя {0}. Часть ресурсов пропала впустую.</MessageConstructionFailed>
+  <MessageConstructionFailed>{WORKER_labelShort} {WORKER_gender ? совершил : совершила} ошибку при работе над ^Case({0} | 4)^. Часть ресурсов пропала впустую.</MessageConstructionFailed>
 
   <!-- EN: Screenshot saved as: {0} -->
   <MessageScreenshotSavedAs>Снимок экрана сохранён как: {0}</MessageScreenshotSavedAs>
@@ -232,7 +232,7 @@
   <MessageNoLongerSocialFighting>{PAWN1_labelShort} и {PAWN2_labelShort} прекратили драку.</MessageNoLongerSocialFighting>
   
   <!-- EN: {2_labelShort} is no longer binging on {1}. -->
-  <MessageNoLongerBingingOnDrug>{2_labelShort} {2_gender ? прекратил : прекратила} бесконтрольно употреблять {1}.</MessageNoLongerBingingOnDrug>
+  <MessageNoLongerBingingOnDrug>{2_labelShort} {2_gender ? прекратил : прекратила} бесконтрольно употреблять ^Case({1} | 3)^.</MessageNoLongerBingingOnDrug>
 
   <!-- EN: {PAWN_labelShort} is no longer on an insulting spree against {TARGET_label}. -->
   <MessageNoLongerOnTargetedInsultingSpree>{PAWN_labelShort} больше не оскорбляет {TARGET_label}.</MessageNoLongerOnTargetedInsultingSpree>
@@ -241,7 +241,7 @@
   <MessageRottedAwayInStorage>{1_label} {1_gender ? сгнил : сгнила : сгнило} на складе.</MessageRottedAwayInStorage>
   
   <!-- EN: {PAWN_labelShort} has gotten food poisoning from: {FOOD_labelShort}. Cause: {2}. -->
-  <MessageFoodPoisoning>Съев {FOOD_labelShort}, {PAWN_labelShort} получает пищевое отравление. Причина — {2}.</MessageFoodPoisoning>
+  <MessageFoodPoisoning>{PAWN_labelShort} {PAWN_gender ? отравился : отравилась} ^Case({FOOD_labelShort} | 4)^. Причина — {2}.</MessageFoodPoisoning>
   
   <!-- EN: {0} has been removed from the caravan. -->
   <MessagePawnLostWhileFormingCaravan>{0} {0_gender ? исключён : исключена} из каравана.</MessagePawnLostWhileFormingCaravan>
@@ -275,7 +275,7 @@
   <MessagePawnBeingBurned>{1_labelShort} получает ожоги от перегретого воздуха!</MessagePawnBeingBurned>
 
   <!-- EN: {INGESTER} has accidentally overdosed while consuming {DRUG_labelShort}! -->
-  <MessageAccidentalOverdose>{INGESTER} {INGESTER_gender ? получил : получила} передозировку {DRUG_labelShort}!</MessageAccidentalOverdose>
+  <MessageAccidentalOverdose>{INGESTER} {INGESTER_gender ? получил : получила} передозировку ^Case({DRUG_labelShort} | 1)^!</MessageAccidentalOverdose>
   
   <!-- EN: {0} has arrived at its destination. -->
   <MessageCaravanArrivedAtDestination>{0} прибыл к месту назначения.</MessageCaravanArrivedAtDestination>
@@ -447,7 +447,7 @@
   <!-- EN: {0} cannot grow underneath a roof. -->
   <MessagePlantIncompatibleWithRoof>{0} не растёт под крышей.</MessagePlantIncompatibleWithRoof>
   <!-- EN: Cannot build a roof over {0}. -->
-  <MessageRoofIncompatibleWithPlant>Нельзя построить крышу над этим растением: {0}.</MessageRoofIncompatibleWithPlant>
+  <MessageRoofIncompatibleWithPlant>Нельзя построить крышу над ^Case({0} | 4)^.</MessageRoofIncompatibleWithPlant>
 
   <!-- EN: To leave the area, use the 'reform caravan' button in the world view. -->
   <MessagePlayerTriedToLeaveMapViaExitGrid_CanReform>Чтобы покинуть это место, нажмите кнопку «Продолжить путь» во вкладке «Мир».</MessagePlayerTriedToLeaveMapViaExitGrid_CanReform>
@@ -525,7 +525,7 @@
   <!-- EN: The caravan is already encumbered and can't carry anything else. -->
   <MessageCantGiveGiftBecauseCantCarryEncumbered>Караван уже достаточно загружен и не может взять больше ничего.</MessageCantGiveGiftBecauseCantCarryEncumbered>
   <!-- EN: The caravan can't carry that much. The gifts weigh {0} but the caravan can only carry {1} more. -->
-  <MessageCantGiveGiftBecauseCantCarry>Караван не может переносить так много. Подарки весят {0}, а караван может взять только на {1} больше.</MessageCantGiveGiftBecauseCantCarry>
+  <MessageCantGiveGiftBecauseCantCarry>Караван не может переносить так много. Подарки весят {0}, а караван может взять {1}.</MessageCantGiveGiftBecauseCantCarry>
 
   <!-- EN: {0} has formed and is now traveling on the world map. -->
   <MessageFormedCaravan>{0} сформирован и начинает своё путешествие.</MessageFormedCaravan>
@@ -592,7 +592,7 @@
   <MessageCantShootInMelee>В рукопашном бою невозможно стрелять.</MessageCantShootInMelee>
 
   <!-- EN: None of your {0} can accept this quest now. -->
-  <MessageNoColonistCanAcceptQuest>Ни один из ваших ^Replace( {0} | 'члены племени'-'членов племени' | 'поселенцы'-'поселенцев')^ {0} не может принять это задание.</MessageNoColonistCanAcceptQuest>
+  <MessageNoColonistCanAcceptQuest>Ни один из ваших ^Case( {0} | 1)^ не может принять это задание.</MessageNoColonistCanAcceptQuest>
   <!-- EN: Cannot accept this quest. -->
   <MessageCannotAcceptQuest>Невозможно принять задание.</MessageCannotAcceptQuest>
   <!-- EN: {0_definite} has accepted a quest: {1} -->
