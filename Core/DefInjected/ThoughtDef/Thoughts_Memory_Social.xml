@@ -85,7 +85,7 @@
   <!-- EN: insulted -->
   <InsultedMood.stages.insulted.label>оскорбление</InsultedMood.stages.insulted.label>
   <!-- EN: I've been directly insulted! What an awful person! -->
-  <InsultedMood.stages.insulted.description>{OTHERPAWN_gender ? Этот : Эта} {OTHERPAWN_gender ? урод : зараза} просто {OTHERPAWN_gender ? взял : взяла} и {OTHERPAWN_gender ? оскорбил : оскорбила} меня!</InsultedMood.stages.insulted.description>
+  <InsultedMood.stages.insulted.description>{OTHERPAWN_gender ? Он : Она} просто {OTHERPAWN_gender ? взял : взяла} и {OTHERPAWN_gender ? оскорбил : оскорбила} меня! Терпеть не могу таких людей!</InsultedMood.stages.insulted.description>
   
   <!-- EN: I rejected their proposal -->
   <IRejectedTheirProposal.stages.I_rejected_their_proposal.label>{1_gender ? сделал : сделала} неприемлемое предложение</IRejectedTheirProposal.stages.I_rejected_their_proposal.label>
@@ -166,7 +166,7 @@
   <!-- EN: rescued me -->
   <RescuedMeByOfferingHelp.stages.rescued_me.label>{1_gender ? спас : спасла} меня</RescuedMeByOfferingHelp.stages.rescued_me.label>
   <!-- EN: I was rescued by someone! I almost thought I was done for back there. I'm so thankful. -->
-  <RescuedMeByOfferingHelp.stages.rescued_me.description>У меня есть {OTHERPAWN_gender ? спаситель : спасительница}! А мне уже начало было казаться, что меня бросят. Я так {PAWN_gender ? благодарен : благодарна} {OTHERPAWN_objective}!</RescuedMeByOfferingHelp.stages.rescued_me.description>
+  <RescuedMeByOfferingHelp.stages.rescued_me.description>Мне уже начало было казаться, что меня бросят, но меня {OTHERPAWN_gender ? спас : спасла} {OTHERPAWN_nameDef}! Я так {OTHERPAWN_objective} {PAWN_gender ? благодарен : благодарна}!</RescuedMeByOfferingHelp.stages.rescued_me.description>
   
   <!-- EN: slighted -->
   <Slighted.stages.slighted.label>{1_gender ? пренебрёг : пренебрегла} мной</Slighted.stages.slighted.label>
