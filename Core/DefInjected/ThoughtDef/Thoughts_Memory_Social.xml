@@ -10,7 +10,7 @@
   <!-- EN: broken up with by {0} -->
   <BrokeUpWithMeMood.stages.broken_up_with_by.label>{0} {1_gender ? бросил : бросила}</BrokeUpWithMeMood.stages.broken_up_with_by.label>
   <!-- EN: I was just dumped like a load of garbage. -->
-  <BrokeUpWithMeMood.stages.broken_up_with_by.description>{OTHERPAWN_gender ? Он : Она} меня {OTHERPAWN_gender ? бросил : бросила}, словно я мешок с мусором!</BrokeUpWithMeMood.stages.broken_up_with_by.description>
+  <BrokeUpWithMeMood.stages.broken_up_with_by.description>{OTHERPAWN_gender ? Он : Она} меня {OTHERPAWN_gender ? бросил : бросила}, как ненужную вещь!</BrokeUpWithMeMood.stages.broken_up_with_by.description>
   
   <!-- EN: cheated on me -->
   <CheatedOnMe.stages.cheated_on_me.label>{1_gender ? изменил : изменила} мне</CheatedOnMe.stages.cheated_on_me.label>
