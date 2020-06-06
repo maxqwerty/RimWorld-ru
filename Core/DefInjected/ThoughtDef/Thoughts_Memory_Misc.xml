@@ -2,19 +2,19 @@
 <LanguageData>
   
   <!-- EN: ate without table -->
-  <AteWithoutTable.stages.ate_without_table.label>еда на земле</AteWithoutTable.stages.ate_without_table.label>
+  <AteWithoutTable.stages.ate_without_table.label>{PAWN_gender ? ел : ела} на земле</AteWithoutTable.stages.ate_without_table.label>
   <!-- EN: I had to eat a meal off the ground. Can't we get a table around here? -->
-  <AteWithoutTable.stages.ate_without_table.description>Мне пришлось есть прямо на земле. Не могли бы мы сделать стол?</AteWithoutTable.stages.ate_without_table.description>
+  <AteWithoutTable.stages.ate_without_table.description>Мне пришлось есть прямо на земле. Может, всё-таки поставим тут стол?</AteWithoutTable.stages.ate_without_table.description>
   
   <!-- EN: bonded animal {0} banished -->
-  <BondedAnimalBanished.stages.bonded_animal_banished.label>питомец, {0}, изгнан</BondedAnimalBanished.stages.bonded_animal_banished.label>
+  <BondedAnimalBanished.stages.bonded_animal_banished.label>изгнан питомец, {0}</BondedAnimalBanished.stages.bonded_animal_banished.label>
   <!-- EN: My bonded animal was banished! -->
   <BondedAnimalBanished.stages.bonded_animal_banished.description>Моего любимого питомца выгнали из поселения!</BondedAnimalBanished.stages.bonded_animal_banished.description>
   
   <!-- EN: I butchered humanlike -->
-  <ButcheredHumanlikeCorpse.stages.I_butchered_humanlike.label>разделан человек</ButcheredHumanlikeCorpse.stages.I_butchered_humanlike.label>
+  <ButcheredHumanlikeCorpse.stages.I_butchered_humanlike.label>{PAWN_gender ? разделал : разделала} человека</ButcheredHumanlikeCorpse.stages.I_butchered_humanlike.label>
   <!-- EN: I butchered someone up like an animal. -->
-  <ButcheredHumanlikeCorpse.stages.I_butchered_humanlike.description>Мне пришлось разделать человека. Словно это было животное.</ButcheredHumanlikeCorpse.stages.I_butchered_humanlike.description>
+  <ButcheredHumanlikeCorpse.stages.I_butchered_humanlike.description>Я {PAWN_gender ? разделал : разделала} человека, словно это было животное.</ButcheredHumanlikeCorpse.stages.I_butchered_humanlike.description>
   
   <!-- EN: catharsis -->
   <Catharsis.stages.catharsis.label>раскаяние</Catharsis.stages.catharsis.label>
@@ -32,12 +32,12 @@
   <ColonistBanishedToDie.stages.colonist_banished_to_death.description>Мы изгнали нашего поселенца в таком состоянии, что у него практически нет шансов выжить.</ColonistBanishedToDie.stages.colonist_banished_to_death.description>
   
   <!-- EN: defeated hostile leader {0} -->
-  <DefeatedHostileFactionLeader.stages.defeated_hostile_leader.label>убийство лидера вражеской фракции</DefeatedHostileFactionLeader.stages.defeated_hostile_leader.label>
+  <DefeatedHostileFactionLeader.stages.defeated_hostile_leader.label>{PAWN_gender ? убил : убила} вражеского лидера, {0}</DefeatedHostileFactionLeader.stages.defeated_hostile_leader.label>
   <!-- EN: They were leading efforts to destroy us, and I took them down! -->
   <DefeatedHostileFactionLeader.stages.defeated_hostile_leader.description>Они пытались уничтожить нас, но они не знали, что им придётся иметь дело со мной!</DefeatedHostileFactionLeader.stages.defeated_hostile_leader.description>
   
   <!-- EN: defeated hostile leader -->
-  <DefeatedHostileFactionLeaderOpinion.stages.defeated_hostile_leader.label>убийство лидера вражеской фракции</DefeatedHostileFactionLeaderOpinion.stages.defeated_hostile_leader.label>
+  <DefeatedHostileFactionLeaderOpinion.stages.defeated_hostile_leader.label>{OTHERPAWN_gender ? убил : убила} вражеского лидера</DefeatedHostileFactionLeaderOpinion.stages.defeated_hostile_leader.label>
   
   <!-- EN: defeated mech cluster -->
   <DefeatedMechCluster.stages.defeated_mech_cluster.label>кластер механоидов уничтожен</DefeatedMechCluster.stages.defeated_mech_cluster.label>
@@ -47,7 +47,7 @@
   <!-- EN: failed to rescue {0} -->
   <FailedToRescueRelative.stages.failed_to_rescue.label>{1_labelShort} не {1_gender ? спасён : спасена}</FailedToRescueRelative.stages.failed_to_rescue.label>
   <!-- EN: We had a chance to rescue my relative, and failed. I could have helped! -->
-  <FailedToRescueRelative.stages.failed_to_rescue.description>Дорогого мне человека не спасли. Как же так?! Мы же могли ему помочь!</FailedToRescueRelative.stages.failed_to_rescue.description>
+  <FailedToRescueRelative.stages.failed_to_rescue.description>Мы же могли спасти {OTHERPAWN_gender ? моего родственника : мою родственницу}! Я {PAWN_gender ? сам должен был : сама должна была} {OTHERPAWN_objective} помочь!</FailedToRescueRelative.stages.failed_to_rescue.description>
   
   <!-- EN: freed from slavery -->
   <FreedFromSlavery.stages.freed_from_slavery.label>{PAWN_gender ? освобождён : освобождена} из рабства</FreedFromSlavery.stages.freed_from_slavery.label>
