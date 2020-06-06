@@ -2,17 +2,17 @@
 <LanguageData>
   
   <!-- EN: attended concert -->
-  <AttendedConcert.stages.attended_concert.label>посещение концерта</AttendedConcert.stages.attended_concert.label>
+  <AttendedConcert.stages.attended_concert.label>{PAWN_gender ? был : был} на концерте</AttendedConcert.stages.attended_concert.label>
   <!-- EN: I enjoyed listening to that performance. -->
-  <AttendedConcert.stages.attended_concert.description>Я {PAWN_gender ? был : была} {PAWN_gender ? рад : рада} побывать на этом концерте.</AttendedConcert.stages.attended_concert.description>
+  <AttendedConcert.stages.attended_concert.description>Я {PAWN_gender ? был рад : была рада} побывать на том концерте.</AttendedConcert.stages.attended_concert.description>
   
   <!-- EN: attended party -->
-  <AttendedParty.stages.attended_party.label>посещение вечеринки</AttendedParty.stages.attended_party.label>
+  <AttendedParty.stages.attended_party.label>{PAWN_gender ? был : был} на вечеринке</AttendedParty.stages.attended_party.label>
   <!-- EN: I had a good time at that party. -->
-  <AttendedParty.stages.attended_party.description>Это было здорово — оттянуться на той вечеринке.</AttendedParty.stages.attended_party.description>
+  <AttendedParty.stages.attended_party.description>Я здорово {PAWN_gender ? оттянулся : оттянулась} на той вечеринке.</AttendedParty.stages.attended_party.description>
   
   <!-- EN: attended wedding -->
-  <AttendedWedding.stages.attended_wedding.label>посещение свадьбы</AttendedWedding.stages.attended_wedding.label>
+  <AttendedWedding.stages.attended_wedding.label>{PAWN_gender ? был : был} на свадьбе</AttendedWedding.stages.attended_wedding.label>
   <!-- EN: It was great to see two people come together to build a future like that. -->
   <AttendedWedding.stages.attended_wedding.description>Прекрасно видеть двух людей, соединивших себя священным союзом, чтобы вместе построить светлое будущее.</AttendedWedding.stages.attended_wedding.description>
   
@@ -22,14 +22,14 @@
   <EncouragingSpeech.stages.encouraging_speech.description>После этой речи я чувствую, что мы верной дорогой движемся вперёд.</EncouragingSpeech.stages.encouraging_speech.description>
   
   <!-- EN: got married to {0} -->
-  <GotMarried.stages.got_married_to.label>свадьба с {0}</GotMarried.stages.got_married_to.label>
+  <GotMarried.stages.got_married_to.label>{PAWN_gender ? женился на : вышла замуж за} {0}</GotMarried.stages.got_married_to.label>
   <!-- EN: I got married! It's so wonderful to be starting a new life together! -->
   <GotMarried.stages.got_married_to.description>Мы поженились! Как здорово начать новую жизнь вместе!</GotMarried.stages.got_married_to.description>
   
   <!-- EN: held concert -->
-  <HeldConcert.stages.held_concert.label>проведение концерта</HeldConcert.stages.held_concert.label>
+  <HeldConcert.stages.held_concert.label>{PAWN_gender ? провёл : провела} концерт</HeldConcert.stages.held_concert.label>
   <!-- EN: They loved me. They really loved me. -->
-  <HeldConcert.stages.held_concert.description>Им понравилось. Мой концерт зашёл на ура!</HeldConcert.stages.held_concert.description>
+  <HeldConcert.stages.held_concert.description>Им понравилось! Мой концерт зашёл на ура!</HeldConcert.stages.held_concert.description>
   
   <!-- EN: inspirational speech -->
   <InspirationalSpeech.stages.inspirational_speech.label>вдохновляющая речь</InspirationalSpeech.stages.inspirational_speech.label>
