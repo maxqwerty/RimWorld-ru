@@ -26,7 +26,7 @@
   <Joywire.stages.joywire.description>Я чувствую себя просто прекрасно.</Joywire.stages.joywire.description>
   
   <!-- EN: naked -->
-  <Naked.stages.naked.label>без одежды</Naked.stages.naked.label>
+  <Naked.stages.naked.label>{PAWN_gender ? голый : голая}</Naked.stages.naked.label>
   <!-- EN: I'm naked. This is humiliating. -->
   <Naked.stages.naked.description>На мне совсем нет одежды. Это унизительно.</Naked.stages.naked.description>
   
