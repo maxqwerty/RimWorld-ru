@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
-  <!-- Everywhere: Thought_Memory, null -->
+  <!-- Everywhere: Thought_Memory, null. Label: {PAWN}. LabelSocial: {PAWN}. Description: {PAWN} -->
   
   <!-- EN: ate awful meal -->
   <AteAwfulMeal.stages.ate_awful_meal.label>{PAWN_gender ? съел : съела} отвратительное блюдо</AteAwfulMeal.stages.ate_awful_meal.label>

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
-  <!-- Everywhere: Thought_Situational, ThoughtWorker_Hediff -->
+  <!-- Everywhere: Thought_Situational, ThoughtWorker_Hediff. Label: {PAWN}. Description: {PAWN} -->
   
   <!-- EN: psychite withdrawal -->
   <PsychiteWithdrawal.stages.psychite_withdrawal.label>психиновая ломка</PsychiteWithdrawal.stages.psychite_withdrawal.label>

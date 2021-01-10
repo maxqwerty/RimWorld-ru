@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
-  <!-- Thought_SituationalSocial, ThoughtWorker_Affair -->
+  <!-- Thought_SituationalSocial, ThoughtWorker_Affair. Label: {PAWN}. LabelCapSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN} -->
   <!-- EN: affair -->
   <Affair.stages.affair.label>интрижка</Affair.stages.affair.label>
   
-  <!-- Thought_SituationalSocial, ThoughtWorker_AnnoyingVoice -->
+  <!-- Thought_SituationalSocial, ThoughtWorker_AnnoyingVoice. Label: {PAWN}. LabelCapSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN} -->
   <!-- EN: annoying voice -->
   <AnnoyingVoice.stages.annoying_voice.label>противный голос</AnnoyingVoice.stages.annoying_voice.label>
   
@@ -13,7 +13,7 @@
   <!-- EN: ate raw humanlike meat -->
   <AteRawHumanlikeMeat.stages.ate_raw_humanlike_meat.label>каннибал</AteRawHumanlikeMeat.stages.ate_raw_humanlike_meat.label>
   
-  <!-- Thought_SituationalSocial, ThoughtWorker_BodyPuristDisgust -->
+  <!-- Thought_SituationalSocial, ThoughtWorker_BodyPuristDisgust. Label: {PAWN}. LabelCapSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN} -->
   <!-- EN: body purist disgust -->
   <BodyPuristDisgust.stages.body_purist_disgust-0.label>отвращение биоконсерватора</BodyPuristDisgust.stages.body_purist_disgust-0.label>
   <!-- EN: body purist disgust -->
@@ -25,17 +25,17 @@
   <!-- EN: body purist disgust -->
   <BodyPuristDisgust.stages.body_purist_disgust-4.label>отвращение биоконсерватора</BodyPuristDisgust.stages.body_purist_disgust-4.label>
   
-  <!-- Thought_BondedAnimalMaster, ThoughtWorker_BondedAnimalMaster -->
+  <!-- Thought_BondedAnimalMaster, ThoughtWorker_BondedAnimalMaster. Label: {REASON} {PAWN}. LabelCapSocial: {PAWN}, {REASON}. Description: {PAWN} -->
   <!-- EN: {0}'s master -->
-  <BondedAnimalMaster.stages.s_master.label>{PAWN_gender ? хозяин : хозяйка} {0}</BondedAnimalMaster.stages.s_master.label>
+  <BondedAnimalMaster.stages.s_master.label>{PAWN_gender ? хозяин : хозяйка} {REASON}</BondedAnimalMaster.stages.s_master.label>
   <!-- EN: Being together with my bonded animal makes me feel better. -->
   <BondedAnimalMaster.stages.s_master.description>Приятно чувствовать, что мой любимый питомец рядом.</BondedAnimalMaster.stages.s_master.description>
   <!-- EN: master of {0} -->
-  <BondedAnimalMaster.stages.master_of.label>{PAWN_gender ? хозяин : хозяйка} {0}</BondedAnimalMaster.stages.master_of.label>
+  <BondedAnimalMaster.stages.master_of.label>{PAWN_gender ? хозяин : хозяйка} {REASON}</BondedAnimalMaster.stages.master_of.label>
   <!-- EN: Being together with my bonded animals makes me feel better. -->
   <BondedAnimalMaster.stages.master_of.description>Приятно чувствовать, что мои любимые питомцы рядом.</BondedAnimalMaster.stages.master_of.description>
   
-  <!-- Thought_Tale, ThoughtWorker_Tale -->
+  <!-- Thought_Tale, ThoughtWorker_Tale. Label: {PAWN}. LabelCapSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN} -->
   <!-- EN: butchered humanlike corpse -->
   <ButcheredHumanlikeCorpseOpinion.stages.butchered_humanlike_corpse.label>{OTHERPAWN_gender ? разделал : разделала} человека</ButcheredHumanlikeCorpseOpinion.stages.butchered_humanlike_corpse.label>
   
@@ -43,15 +43,15 @@
   <!-- EN: chemical interest vs teetotaler -->
   <ChemicalInterestVsTeetotaler.stages.chemical_interest_vs_teetotaler.label>{OTHERPAWN_gender ? трезвенник : трезвенница}</ChemicalInterestVsTeetotaler.stages.chemical_interest_vs_teetotaler.label>
   
-  <!-- Thought_SituationalSocial, ThoughtWorker_CreepyBreathing -->
+  <!-- Thought_SituationalSocial, ThoughtWorker_CreepyBreathing. Label: {PAWN}. LabelCapSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN} -->
   <!-- EN: creepy breathing -->
   <CreepyBreathing.stages.creepy_breathing.label>жутковато дышит</CreepyBreathing.stages.creepy_breathing.label>
   
-  <!-- Thought_SituationalSocial, ThoughtWorker_Disfigured -->
+  <!-- Thought_SituationalSocial, ThoughtWorker_Disfigured. Label: {PAWN}. LabelCapSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN} -->
   <!-- EN: disfigured -->
   <Disfigured.stages.disfigured.label>{OTHERPAWN_gender ? обезображен : обезображена}</Disfigured.stages.disfigured.label>
   
-  <!-- Thought_SituationalSocial, ThoughtWorker_Drunk -->
+  <!-- Thought_SituationalSocial, ThoughtWorker_Drunk. Label: {PAWN}. LabelCapSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN} -->
   <!-- EN: drunk -->
   <Drunk.stages.drunk.label>{OTHERPAWN_gender ? пьян : пьяна}</Drunk.stages.drunk.label>
   
@@ -59,27 +59,27 @@
   <!-- EN: executed prisoner -->
   <ExecutedPrisoner.stages.executed_prisoner.label>{OTHERPAWN_gender ? казнил : казнила} пленника</ExecutedPrisoner.stages.executed_prisoner.label>
   
-  <!-- Thought_HardWorkerVsLazy, ThoughtWorker_HardWorkerVsLazy -->
+  <!-- Thought_HardWorkerVsLazy, ThoughtWorker_HardWorkerVsLazy. Label: {PAWN}. LabelCapSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN} -->
   <!-- EN: hard worker vs lazy -->
   <HardWorkerVsLazy.stages.hard_worker_vs_lazy.label>{OTHERPAWN_gender ? лентяй : лентяйка}</HardWorkerVsLazy.stages.hard_worker_vs_lazy.label>
   
-  <!-- Thought_SituationalSocial, ThoughtWorker_ImprisonedByFaction -->
+  <!-- Thought_SituationalSocial, ThoughtWorker_ImprisonedByFaction. Label: {PAWN}. LabelCapSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN} -->
   <!-- EN: holding me prisoner -->
   <HoldingMePrisoner.stages.holding_me_prisoner.label>держит меня в плену</HoldingMePrisoner.stages.holding_me_prisoner.label>
   
-  <!-- Thought_Incestuous, ThoughtWorker_Incestuous -->
+  <!-- Thought_Incestuous, ThoughtWorker_Incestuous. Label: {PAWN}. LabelCapSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN} -->
   <!-- EN: incestuous -->
   <Incestuous.stages.incestuous.label>{OTHERPAWN_gender ? кровосмеситель : кровосмесительница}</Incestuous.stages.incestuous.label>
   
-  <!-- Thought_Tale, ThoughtWorker_Tale -->
+  <!-- Thought_Tale, ThoughtWorker_Tale. Label: {PAWN}. LabelCapSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN} -->
   <!-- EN: killed colonist -->
   <KilledColonist.stages.killed_colonist.label>{OTHERPAWN_gender ? убил : убила} поселенца</KilledColonist.stages.killed_colonist.label>
   
-  <!-- Thought_Tale, ThoughtWorker_Tale -->
+  <!-- Thought_Tale, ThoughtWorker_Tale. Label: {PAWN}. LabelCapSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN} -->
   <!-- EN: killed colony animal -->
   <KilledColonyAnimal.stages.killed_colony_animal.label>{OTHERPAWN_gender ? убил : убила} животное поселения</KilledColonyAnimal.stages.killed_colony_animal.label>
   
-  <!-- Thought_SituationalSocial, ThoughtWorker_Man -->
+  <!-- Thought_SituationalSocial, ThoughtWorker_Man. Label: {PAWN}. LabelCapSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN} -->
   <!-- EN: man -->
   <Man.stages.man.label>мужчина</Man.stages.man.label>
   
@@ -93,13 +93,13 @@
   <!-- EN: I should be together with my bonded animals. -->
   <NotBondedAnimalMaster.stages.not_master_of.description>Я хочу быть вместе с моими любимыми питомцами.</NotBondedAnimalMaster.stages.not_master_of.description>
   
-  <!-- Thought_OpinionOfMyLover, ThoughtWorker_OpinionOfMyLover -->
+  <!-- Thought_OpinionOfMyLover, ThoughtWorker_OpinionOfMyLover. Label: {0}(otherPawn.label), {1}(otherPawn.Name), {2}(otherPawn). Description: {PAWN} -->
   <!-- EN: opinion of my {0} {1} -->
   <OpinionOfMyLover.stages.opinion_of_my.label>мнение о {1} ({0})</OpinionOfMyLover.stages.opinion_of_my.label>
   <!-- EN: Being with my lover makes me feel this way. -->
   <OpinionOfMyLover.stages.opinion_of_my.description>Именно так я себя чувствую рядом со своей половинкой.</OpinionOfMyLover.stages.opinion_of_my.description>
   
-  <!-- Thought_SituationalSocial, ThoughtWorker_Pretty -->
+  <!-- Thought_SituationalSocial, ThoughtWorker_Pretty. Label: {PAWN}. LabelCapSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN} -->
   <!-- EN: physically appealing -->
   <Pretty.stages.physically_appealing.label>{OTHERPAWN_gender ? красив : красива}</Pretty.stages.physically_appealing.label>
   <!-- EN: physically stunning -->
@@ -109,7 +109,7 @@
   <!-- EN: sold prisoner to slavery -->
   <SoldPrisoner.stages.sold_prisoner_to_slavery.label>{OTHERPAWN_gender ? продал : продала} пленника</SoldPrisoner.stages.sold_prisoner_to_slavery.label>
   
-  <!-- Thought_SituationalSocial, ThoughtWorker_TeetotalerVsAddict -->
+  <!-- Thought_SituationalSocial, ThoughtWorker_TeetotalerVsAddict. Label: {PAWN}. LabelCapSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN} -->
   <!-- EN: teetotaler vs addict -->
   <TeetotalerVsAddict.stages.teetotaler_vs_addict.label>зависит от «химии»</TeetotalerVsAddict.stages.teetotaler_vs_addict.label>
   
@@ -117,7 +117,7 @@
   <!-- EN: teetotaler vs chemical interest -->
   <TeetotalerVsChemicalInterest.stages.teetotaler_vs_chemical_interest.label>интересуется «химией»</TeetotalerVsChemicalInterest.stages.teetotaler_vs_chemical_interest.label>
   
-  <!-- Thought_SituationalSocial, ThoughtWorker_TranshumanistAppreciation -->
+  <!-- Thought_SituationalSocial, ThoughtWorker_TranshumanistAppreciation. Label: {PAWN}. LabelCapSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN} -->
   <!-- EN: transhumanist appreciation -->
   <TranshumanistAppreciation.stages.transhumanist_appreciation-0.label>радость трансгуманиста</TranshumanistAppreciation.stages.transhumanist_appreciation-0.label>
   <!-- EN: transhumanist appreciation -->
@@ -129,19 +129,19 @@
   <!-- EN: transhumanist appreciation -->
   <TranshumanistAppreciation.stages.transhumanist_appreciation-4.label>радость трансгуманиста</TranshumanistAppreciation.stages.transhumanist_appreciation-4.label>
   
-  <!-- Thought_SituationalSocial, ThoughtWorker_Ugly -->
+  <!-- Thought_SituationalSocial, ThoughtWorker_Ugly. Label: {PAWN}. LabelCapSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN} -->
   <!-- EN: physically unsightly -->
   <Ugly.stages.physically_unsightly.label>{OTHERPAWN_gender ? уродлив : уродлива}</Ugly.stages.physically_unsightly.label>
   <!-- EN: physically hideous -->
   <Ugly.stages.physically_hideous.label>невероятно {OTHERPAWN_gender ? уродлив : уродлива}</Ugly.stages.physically_hideous.label>
   
-  <!-- Thought_WantToSleepWithSpouseOrLover, ThoughtWorker_WantToSleepWithSpouseOrLover -->
+  <!-- Thought_WantToSleepWithSpouseOrLover, ThoughtWorker_WantToSleepWithSpouseOrLover. Label: {0}(otherPawn.Name), {1}(otherPawn), {PAWN}. Description: {PAWN} -->
   <!-- EN: want to sleep with {0} -->
   <WantToSleepWithSpouseOrLover.stages.want_to_sleep_with.label>{0} спит отдельно</WantToSleepWithSpouseOrLover.stages.want_to_sleep_with.label>
   <!-- EN: I don't like sleeping apart from my partner. -->
   <WantToSleepWithSpouseOrLover.stages.want_to_sleep_with.description>Я хочу, чтобы {OTHERPAWN_gender ? мой любимый спал : моя любимая спала} со мной в одной постели.</WantToSleepWithSpouseOrLover.stages.want_to_sleep_with.description>
   
-  <!-- Thought_SituationalSocial, ThoughtWorker_Woman -->
+  <!-- Thought_SituationalSocial, ThoughtWorker_Woman. Label: {PAWN}. LabelCapSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN} -->
   <!-- EN: woman -->
   <Woman.stages.woman.label>женщина</Woman.stages.woman.label>
   

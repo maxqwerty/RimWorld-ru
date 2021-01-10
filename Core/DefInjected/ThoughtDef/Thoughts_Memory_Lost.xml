@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
-  <!-- Everywhere: Thought_Memory, null -->
+  <!-- Everywhere: Thought_Memory, null. Label: {0}(otherPawn.LabelShort), {1}(otherPawn). LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN}, {OTHERPAWN} -->
   
   <!-- EN: bonded animal {0} lost -->
   <BondedAnimalLost.stages.bonded_animal_lost.label>пропал питомец, {0}</BondedAnimalLost.stages.bonded_animal_lost.label>
