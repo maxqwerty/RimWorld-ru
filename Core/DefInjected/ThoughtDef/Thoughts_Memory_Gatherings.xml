@@ -9,7 +9,7 @@
   
   <!-- Thought_Memory, null -->
   <!-- EN: attended party -->
-  <AttendedParty.stages.attended_party.label>{PAWN_gender ? был : был} на вечеринке</AttendedParty.stages.attended_party.label>
+  <AttendedParty.stages.attended_party.label>{PAWN_gender ? был : была} на вечеринке</AttendedParty.stages.attended_party.label>
   <!-- EN: I had a good time at that party. -->
   <AttendedParty.stages.attended_party.description>Я здорово {PAWN_gender ? оттянулся : оттянулась} на той вечеринке.</AttendedParty.stages.attended_party.description>
   
@@ -27,9 +27,9 @@
   
   <!-- Thought_Memory, null. Label: {0}(otherPawn.LabelShort), {1}(otherPawn). LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN}, {OTHERPAWN} -->
   <!-- EN: got married to {0} -->
-  <GotMarried.stages.got_married_to.label>{PAWN_gender ? женился на : вышла замуж за} {0}</GotMarried.stages.got_married_to.label>
+  <GotMarried.stages.got_married_to.label>свадьба с {0}</GotMarried.stages.got_married_to.label>
   <!-- EN: I got married! It's so wonderful to be starting a new life together! -->
-  <GotMarried.stages.got_married_to.description>Мы поженились! Как здорово начать новую жизнь вместе!</GotMarried.stages.got_married_to.description>
+  <GotMarried.stages.got_married_to.description>Я {PAWN_gender ? женился на : вышла замуж за} {OTHERPAWN}! Как здорово начать новую жизнь вместе!</GotMarried.stages.got_married_to.description>
   
   <!-- Thought_Memory, null -->
   <!-- EN: held concert -->
