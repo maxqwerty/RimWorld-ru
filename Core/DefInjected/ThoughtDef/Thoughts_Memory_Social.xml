@@ -106,7 +106,7 @@
   
   <!-- Thought_Memory, null. Label: {0}(otherPawn.LabelShort), {1}(otherPawn) -->
   <!-- EN: insulted -->
-  <InsultedMood.stages.insulted.label>{PAWN_gender ? оскорблён : оскорблена}</InsultedMood.stages.insulted.label>
+  <InsultedMood.stages.insulted.label>оскорбление</InsultedMood.stages.insulted.label>
   <!-- EN: I've been directly insulted! What an awful person! -->
   <InsultedMood.stages.insulted.description>{OTHERPAWN_gender ? Он : Она} просто {OTHERPAWN_gender ? взял : взяла} и {OTHERPAWN_gender ? оскорбил : оскорбила} меня! Терпеть не могу таких людей!</InsultedMood.stages.insulted.description>
   
